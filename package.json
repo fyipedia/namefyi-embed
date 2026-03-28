@@ -1,0 +1,42 @@
+{
+  "name": "namefyi-embed",
+  "version": "1.0.0",
+  "description": "Embed NameFYI widgets — name cards, Hanja characters, Five Elements, random names. 35,585 names. Zero dependencies, Shadow DOM, 4 themes.",
+  "main": "dist/embed.min.js",
+  "module": "dist/embed.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "name",
+    "korean-name",
+    "hanja",
+    "five-elements",
+    "romanization",
+    "CJK",
+    "embed",
+    "widget",
+    "namefyi",
+    "namefyi.com",
+    "shadow-dom",
+    "zero-dependencies",
+    "fyipedia",
+    "utilityfyi"
+  ],
+  "homepage": "https://widget.namefyi.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fyipedia/namefyi-embed"
+  },
+  "bugs": {
+    "url": "https://github.com/fyipedia/namefyi-embed/issues"
+  },
+  "license": "MIT",
+  "author": "FYIPedia <dev@fyipedia.com>",
+  "publishConfig": {
+    "access": "public"
+  }
+}
