@@ -1,6 +1,6 @@
 {
   "name": "namefyi-embed",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Embed NameFYI widgets — name cards, Hanja characters, Five Elements, random names. 35,585 names. Zero dependencies, Shadow DOM, 4 themes.",
   "main": "dist/embed.min.js",
   "module": "dist/embed.esm.js",
