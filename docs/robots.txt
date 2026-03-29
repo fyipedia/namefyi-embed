@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# NameFYI Embed Widget
+# Main site: https://namefyi.com
+# Widget docs: https://widget.namefyi.com
+# npm: https://www.npmjs.com/package/namefyi-embed
