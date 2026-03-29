@@ -1,0 +1,26 @@
+# NameFYI Embed Widget
+
+> Embeddable NameFYI widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+
+## Quick Start
+
+Add to any HTML page:
+- Script: <script src="https://cdn.jsdelivr.net/npm/namefyi-embed@1/dist/embed.min.js"></script>
+
+## Links
+
+- Main site: https://namefyi.com
+- Widget docs: https://widget.namefyi.com
+- npm: https://www.npmjs.com/package/namefyi-embed
+- GitHub: https://github.com/fyipedia/namefyi-embed
+- API: https://namefyi.com/developers/
+
+## Utility FYI Widget Family
+
+- [UnitFYI Widget](https://widget.unitfyi.com)
+- [TimeFYI Widget](https://widget.timefyi.com)
+- [HolidayFYI Widget](https://widget.holidayfyi.com)
+
+## Part of FYIPedia
+
+Open-source developer tools ecosystem — https://fyipedia.com
