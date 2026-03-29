@@ -1,21 +1,52 @@
 # NameFYI Embed Widget
 
-> Embeddable NameFYI widgets for any website. Zero dependencies, Shadow DOM isolation, 4 themes (light/dark/sepia/auto).
+> Korean romanization, Five Elements. Embeddable widgets for any website. Zero dependencies, Shadow DOM isolation.
 
 ## Quick Start
 
-Add to any HTML page:
-- Script: <script src="https://cdn.jsdelivr.net/npm/namefyi-embed@1/dist/embed.min.js"></script>
+```html
+<script src="https://cdn.jsdelivr.net/npm/namefyi-embed@1/dist/embed.min.js"></script>
+<div data-namefyi="random" data-slug="example"></div>
+```
+
+## Available Widget Types (8)
+
+- entity: `data-namefyi="entity"`
+- glossary: `data-namefyi="glossary"`
+- guide: `data-namefyi="guide"`
+- compare: `data-namefyi="compare"`
+- search: `data-namefyi="search"`
+- faq: `data-namefyi="faq"`
+- random (interactive): `data-namefyi="random"`
+- character (interactive): `data-namefyi="character"`
+
+## Customization
+
+- **Themes**: light, dark, sepia, auto (follows system preference)
+- **Sizes**: compact (280px), default (420px), large (720px)
+- **Styles**: modern, classic
+
+```html
+<div data-namefyi="random" data-slug="example"
+     data-theme="auto" data-size="compact" data-style-variant="modern"></div>
+```
+
+## Integration Methods
+
+1. **Script tag** (recommended): `<script src="https://cdn.jsdelivr.net/npm/namefyi-embed@1/dist/embed.min.js"></script>`
+2. **iframe**: `https://namefyi.com/iframe/entity/{slug}/`
+3. **oEmbed**: `https://namefyi.com/oembed?url={page_url}&format=json`
+4. **Badge**: `https://namefyi.com/badge/site.svg`
 
 ## Links
 
 - Main site: https://namefyi.com
 - Widget docs: https://widget.namefyi.com
-- npm: https://www.npmjs.com/package/namefyi-embed
+- API documentation: https://namefyi.com/developers/
+- npm package: https://www.npmjs.com/package/namefyi-embed
 - GitHub: https://github.com/fyipedia/namefyi-embed
-- API: https://namefyi.com/developers/
 
-## Utility FYI Widget Family
+## Utility FYI Widget Network
 
 - [UnitFYI Widget](https://widget.unitfyi.com)
 - [TimeFYI Widget](https://widget.timefyi.com)
